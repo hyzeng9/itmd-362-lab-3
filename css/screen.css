@@ -223,20 +223,30 @@ h1, p {
 
 #content {
   display: block;
+  width:auto;
 }
 
 form {
   width: auto;
 }
 
+li{
+  padding: 1%;
+}
+
 label, #submit {
   color: #aaaaaa;
   text-align: center; 
   font-family:'Courier New', Courier, monospace;
+  padding: 0.2em;
 }
 
 #email {
-
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  display:block;
+  padding: 0.1em;
 }
 
 #submit {
@@ -244,10 +254,13 @@ label, #submit {
   width: fit-content;
   text-align: center;
   margin: auto;
+  text-decoration:dotted;
 }
 
 #age-verification {
-  
+  display:inline-block;
+  width:1em;
+  height:1em;
 }
 
 input {
@@ -262,7 +275,16 @@ input[type=email] {
   padding: 0.25em;
   margin:auto;
   border-radius: 0.5em;   
-  align-self: center;
+}
+
+input[type=checkbox] {
+  background: #666666;
+
+}
+
+input[type=submit]{
+  background-color: #666666;
+  border-radius: 0.2em;
 }
 
 /* ===== STATE STYLES ======= */
