@@ -203,6 +203,67 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+body {
+  background-color: #333333;
+}
 
+h1{
+  font-weight:bold;
+  font-size:2em;
+}
+
+h1, p {
+  color: #aaaaaa;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 1em;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+#content {
+  display: block;
+}
+
+form {
+  width: auto;
+}
+
+label, #submit {
+  color: #aaaaaa;
+  text-align: center; 
+  font-family:'Courier New', Courier, monospace;
+}
+
+#email {
+
+}
+
+#submit {
+  display:block;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
+#age-verification {
+  
+}
+
+input {
+  border: none;
+  background-color: #666666;
+}
+
+input[type=email] {
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  color: #eeeeee;
+  padding: 0.25em;
+  margin:auto;
+  border-radius: 0.5em;   
+  align-self: center;
+}
 
 /* ===== STATE STYLES ======= */
+
