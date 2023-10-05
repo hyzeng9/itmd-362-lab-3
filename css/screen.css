@@ -310,6 +310,33 @@ input[type=submit] {
 
 /* ===== STATE STYLES ======= */
 
-@media screen and (min-width: ) {
-  
+@media screen and (max-width: 768px) {
+  #content{
+    width: 80%;
+    margin:auto;
+    padding:auto;
+    text-align: center;
+    display: block;
+  }
+
+  html {
+    font-size: 1.4em;
+    line-height: 1.2em;
+    padding: 1.2em;
+    text-rendering: optimizeLegibility;
+  }
+
+  label {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 1.5em; 
+  }
+
+  h1 {
+    font-size: 1.25em; 
+  }
 }
