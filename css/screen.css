@@ -208,7 +208,7 @@ body {
   align-content: center;
 }
 
-h1{
+h1 {
   font-weight:bold;
   font-size:2em;
 }
@@ -231,14 +231,14 @@ form {
   width: auto;
 }
 
-div{
+div {
   display:block;
   width: fit-content;
   text-align: center;
   margin: auto;
 }
 
-li{
+li {
   padding: 1%;
   display: block;
   align-content: center;
@@ -292,7 +292,6 @@ input[type=email] {
 
 input[type=checkbox] {
   background: #666666;
-
 }
 
 input[type=submit] {
