@@ -199,12 +199,13 @@ html {
 }
 
 label {
-  display: block;
+  display: inline-block;
 }
 
 /* ===== LAYOUT STYLES ====== */
 body {
   background-color: #333333;
+  align-content: center;
 }
 
 h1{
@@ -230,8 +231,19 @@ form {
   width: auto;
 }
 
+div{
+  display:block;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
 li{
   padding: 1%;
+  display: block;
+  align-content: center;
+  margin:auto;
+  width:auto;
 }
 
 label, #submit {
@@ -245,7 +257,7 @@ label, #submit {
   width: fit-content;
   text-align: center;
   margin: auto;
-  display:block;
+  display:inline-block;
   padding: 0.1em;
 }
 
@@ -258,6 +270,7 @@ label, #submit {
 }
 
 #age-verification {
+  width:fit-content;
   display:inline-block;
   width:1em;
   height:1em;
@@ -282,7 +295,7 @@ input[type=checkbox] {
 
 }
 
-input[type=submit]{
+input[type=submit] {
   background-color: #666666;
   border-radius: 0.2em;
 }
