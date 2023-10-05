@@ -203,6 +203,7 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+
 body {
   background-color: #333333;
   align-content: center;
@@ -218,7 +219,7 @@ h1, p {
   text-align: center;
   justify-content: center;
   margin: auto;
-  padding: 1em;
+  padding: 2em;
   font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
@@ -228,7 +229,12 @@ h1, p {
 }
 
 form {
-  width: auto;
+  display:block;
+  width:auto;
+  height:auto;
+  background-color: #222222;
+  box-sizing: border-box;
+  border: solid #000000 1em;
 }
 
 div {
@@ -236,6 +242,7 @@ div {
   width: fit-content;
   text-align: center;
   margin: auto;
+  padding: 3.5em;
 }
 
 li {
@@ -257,6 +264,7 @@ label, #submit {
   width: fit-content;
   text-align: center;
   margin: auto;
+  margin-bottom: 2em;
   display:inline-block;
   padding: 0.1em;
 }
@@ -272,6 +280,7 @@ label, #submit {
 #age-verification {
   width:fit-content;
   display:inline-block;
+  margin-bottom: 2em;
   width:1em;
   height:1em;
 }
@@ -285,7 +294,7 @@ input[type=email] {
   box-sizing: border-box;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
   color: #eeeeee;
-  padding: 0.25em;
+  padding: 0.5em;
   margin:auto;
   border-radius: 0.5em;   
 }
@@ -301,3 +310,6 @@ input[type=submit] {
 
 /* ===== STATE STYLES ======= */
 
+@media screen and (min-width: ) {
+  
+}
